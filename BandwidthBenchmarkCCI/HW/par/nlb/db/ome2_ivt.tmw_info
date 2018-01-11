@@ -1,0 +1,7 @@
+start_full_compilation:s:01:21:09
+start_analysis_synthesis:s:00:01:21-start_full_compilation
+start_analysis_elaboration:s-start_full_compilation
+start_partition_merge:s:00:00:59-start_full_compilation
+start_fitter:s:01:12:50-start_full_compilation
+start_assembler:s:00:01:39-start_full_compilation
+start_timing_analyzer:s:00:04:20-start_full_compilation

@@ -1,0 +1,4 @@
+set MY_WORKDIR $::env(WORKDIR)
+set REL_RTL_SRC "/"
+set RTL_SRC $MY_WORKDIR$REL_RTL_SRC
+puts " Variable defined RTL_SRC: $RTL_SRC"

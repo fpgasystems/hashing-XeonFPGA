@@ -1,0 +1,25 @@
+Fitter Status : Successful - Sat Jul 16 02:02:46 2016
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : ome2_ivt
+Top-level Entity Name : ome_top
+Family : Stratix V
+Device : 5SGXEA7N1F45C1
+Timing Models : Final
+Logic utilization (in ALMs) : 82,464 / 234,720 ( 35 % )
+Total registers : 71488
+Total pins : 150 / 1,064 ( 14 % )
+Total virtual pins : 0
+Total block memory bits : 40,372,288 / 52,428,800 ( 77 % )
+Total DSP Blocks : 35 / 256 ( 14 % )
+Total HSSI STD RX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G RX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 RX PCSs : 0 / 48 ( 0 % )
+Total HSSI PMA RX Deserializers : 24 / 48 ( 50 % )
+Total HSSI STD TX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G TX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 TX PCSs : 0 / 48 ( 0 % )
+Total HSSI TX Channels : 24 / 48 ( 50 % )
+Total HSSI PIPE GEN1_2s : 0 / 48 ( 0 % )
+Total HSSI GEN3s : 0 / 48 ( 0 % )
+Total PLLs : 7 / 92 ( 8 % )
+Total DLLs : 0 / 4 ( 0 % )

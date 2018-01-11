@@ -1,0 +1,7 @@
+set_global_assignment -name VERILOG_FILE $RTL_SRC/afu2/afu_top.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/afu2/afu_csr.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/afu2/afu_io.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/afu2/afu_core.v
+set_global_assignment -name SYSTEMVERILOG_FILE $RTL_SRC/afu2/cci_ext_afu.sv
+
+set_global_assignment -name VHDL_FILE $RTL_SRC/simple_tabulation_key64_hash20.vhd

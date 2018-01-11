@@ -1,0 +1,450 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="f9535d92c0a578bdd72d"/>
+  </project>
+  <file_info>
+    <file device="5SGXEA7N1F45C1" path="ome2_ivt.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <hub_info hub_ir_width="6" ir_width="4" node_addr_width="3" node_count="6"/>
+  <node_info>
+    <node hpath="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|altsource_probe:altsource_probe_component" instance_id="0" mfg_id="110" node_id="9" sld_node_info="0x486E00" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="MRST"/>
+        <parameter name="probe_width" type="dec" value="12"/>
+        <parameter name="source_width" type="dec" value="2"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="NO"/>
+      </parameters>
+      <inputs>
+        <port name="probe[0]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[0]"/>
+        <port name="probe[1]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[1]"/>
+        <port name="probe[2]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[2]"/>
+        <port name="probe[3]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[3]"/>
+        <port name="probe[4]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[4]"/>
+        <port name="probe[5]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[5]"/>
+        <port name="probe[6]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[6]"/>
+        <port name="probe[7]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[7]"/>
+        <port name="probe[8]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[8]"/>
+        <port name="probe[9]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[9]"/>
+        <port name="probe[10]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[10]"/>
+        <port name="probe[11]" source="ome_bot:bot_ome|qph_top:top_qph|qph_reset_s45:s45_reset_qph|qph_reset_s45_MRST:MRST_s45_reset_qph|probe[11]"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_raw_tck" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_tdi" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_usr1" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_cdr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_sdr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_e1dr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_udr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_cir" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_uir" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_tlr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_clrn" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_clrn"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ena" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ena"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_0_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_1_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_2_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_3_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="source[0]"/>
+        <port name="source[1]"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.top_qph_s45_reset_qph_MRST_s45_reset_qph_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|altsource_probe:altsource_probe_component" instance_id="1" mfg_id="110" node_id="9" sld_node_info="0x486E01" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="XDAC"/>
+        <parameter name="probe_width" type="dec" value="40"/>
+        <parameter name="source_width" type="dec" value="40"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="YES"/>
+      </parameters>
+      <inputs>
+        <port name="probe[0]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[0]"/>
+        <port name="probe[1]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[1]"/>
+        <port name="probe[2]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[2]"/>
+        <port name="probe[3]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[3]"/>
+        <port name="probe[4]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[4]"/>
+        <port name="probe[5]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[5]"/>
+        <port name="probe[6]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[6]"/>
+        <port name="probe[7]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[7]"/>
+        <port name="probe[8]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[8]"/>
+        <port name="probe[9]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[9]"/>
+        <port name="probe[10]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[10]"/>
+        <port name="probe[11]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[11]"/>
+        <port name="probe[12]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[12]"/>
+        <port name="probe[13]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[13]"/>
+        <port name="probe[14]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[14]"/>
+        <port name="probe[15]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[15]"/>
+        <port name="probe[16]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[16]"/>
+        <port name="probe[17]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[17]"/>
+        <port name="probe[18]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[18]"/>
+        <port name="probe[19]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[19]"/>
+        <port name="probe[20]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[20]"/>
+        <port name="probe[21]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[21]"/>
+        <port name="probe[22]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[22]"/>
+        <port name="probe[23]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[23]"/>
+        <port name="probe[24]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[24]"/>
+        <port name="probe[25]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[25]"/>
+        <port name="probe[26]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[26]"/>
+        <port name="probe[27]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[27]"/>
+        <port name="probe[28]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[28]"/>
+        <port name="probe[29]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[29]"/>
+        <port name="probe[30]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[30]"/>
+        <port name="probe[31]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[31]"/>
+        <port name="probe[32]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[32]"/>
+        <port name="probe[33]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[33]"/>
+        <port name="probe[34]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[34]"/>
+        <port name="probe[35]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[35]"/>
+        <port name="probe[36]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[36]"/>
+        <port name="probe[37]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[37]"/>
+        <port name="probe[38]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[38]"/>
+        <port name="probe[39]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|probe[39]"/>
+        <port name="source_clk" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XDAC:XDAC_ctl_s45_xcvr_qph|source_clk"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_raw_tck" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_tdi" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_usr1" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cdr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_sdr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_e1dr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_udr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cir" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_uir" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_tlr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_clrn" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_clrn"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ena" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ena"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_0_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_1_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_2_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_3_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="source[0]"/>
+        <port name="source[1]"/>
+        <port name="source[2]"/>
+        <port name="source[3]"/>
+        <port name="source[4]"/>
+        <port name="source[5]"/>
+        <port name="source[6]"/>
+        <port name="source[7]"/>
+        <port name="source[8]"/>
+        <port name="source[9]"/>
+        <port name="source[10]"/>
+        <port name="source[11]"/>
+        <port name="source[12]"/>
+        <port name="source[13]"/>
+        <port name="source[14]"/>
+        <port name="source[15]"/>
+        <port name="source[16]"/>
+        <port name="source[17]"/>
+        <port name="source[18]"/>
+        <port name="source[19]"/>
+        <port name="source[20]"/>
+        <port name="source[21]"/>
+        <port name="source[22]"/>
+        <port name="source[23]"/>
+        <port name="source[24]"/>
+        <port name="source[25]"/>
+        <port name="source[26]"/>
+        <port name="source[27]"/>
+        <port name="source[28]"/>
+        <port name="source[29]"/>
+        <port name="source[30]"/>
+        <port name="source[31]"/>
+        <port name="source[32]"/>
+        <port name="source[33]"/>
+        <port name="source[34]"/>
+        <port name="source[35]"/>
+        <port name="source[36]"/>
+        <port name="source[37]"/>
+        <port name="source[38]"/>
+        <port name="source[39]"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XDAC_ctl_s45_xcvr_qph_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XTRG:XTRG_ctl_s45_xcvr_qph|altsource_probe:altsource_probe_component" instance_id="2" mfg_id="110" node_id="9" sld_node_info="0x486E02" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="XTRG"/>
+        <parameter name="probe_width" type="dec" value="3"/>
+        <parameter name="source_width" type="dec" value="1"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="YES"/>
+      </parameters>
+      <inputs>
+        <port name="probe[0]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XTRG:XTRG_ctl_s45_xcvr_qph|probe[0]"/>
+        <port name="probe[1]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XTRG:XTRG_ctl_s45_xcvr_qph|probe[1]"/>
+        <port name="probe[2]" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XTRG:XTRG_ctl_s45_xcvr_qph|probe[2]"/>
+        <port name="source_clk" source="ome_bot:bot_ome|qph_top:top_qph|qph_xcvr_s45:s45_xcvr_qph|qph_xcvr_s45_ctl:ctl_s45_xcvr_qph|qph_xcvr_s45_ctl_XTRG:XTRG_ctl_s45_xcvr_qph|source_clk"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_raw_tck" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_tdi" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_usr1" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cdr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_sdr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_e1dr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_udr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cir" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_uir" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_tlr" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_clrn" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_clrn"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ena" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ena"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_0_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_1_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_2_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_3_" source="ome_bot:bot_ome|jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="source[0]"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.top_qph_s45_xcvr_qph_ctl_s45_xcvr_qph_XTRG_ctl_s45_xcvr_qph_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="ome_bot:bot_ome|qph_top:top_qph|qph_pushbutton:pushbutton_qph|pushbutton_source:source_pushbutton|altsource_probe:altsource_probe_component" instance_id="3" mfg_id="110" node_id="9" sld_node_info="0x486E03" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="MCNO"/>
+        <parameter name="probe_width" type="dec" value="1"/>
+        <parameter name="source_width" type="dec" value="1"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="NO"/>
+      </parameters>
+      <inputs>
+        <port name="probe[0]" source="ome_bot:bot_ome|qph_top:top_qph|qph_pushbutton:pushbutton_qph|pushbutton_source:source_pushbutton|probe[0]"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_raw_tck" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_tdi" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_usr1" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_cdr" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_sdr" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_e1dr" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_udr" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_cir" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_uir" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_tlr" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_clrn" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_clrn"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ena" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ena"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_0_" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_1_" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_2_" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_3_" source="ome_bot:bot_ome|jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="source[0]"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.top_qph_pushbutton_qph_source_pushbutton_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|altsource_probe:altsource_probe_component" instance_id="4" mfg_id="110" node_id="9" sld_node_info="0x486E04" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="STAT"/>
+        <parameter name="probe_width" type="dec" value="80"/>
+        <parameter name="source_width" type="dec" value="5"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="YES"/>
+      </parameters>
+      <inputs>
+        <port name="probe[0]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[0]"/>
+        <port name="probe[1]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[1]"/>
+        <port name="probe[2]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[2]"/>
+        <port name="probe[3]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[3]"/>
+        <port name="probe[4]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[4]"/>
+        <port name="probe[5]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[5]"/>
+        <port name="probe[6]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[6]"/>
+        <port name="probe[7]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[7]"/>
+        <port name="probe[8]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[8]"/>
+        <port name="probe[9]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[9]"/>
+        <port name="probe[10]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[10]"/>
+        <port name="probe[11]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[11]"/>
+        <port name="probe[12]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[12]"/>
+        <port name="probe[13]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[13]"/>
+        <port name="probe[14]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[14]"/>
+        <port name="probe[15]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[15]"/>
+        <port name="probe[16]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[16]"/>
+        <port name="probe[17]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[17]"/>
+        <port name="probe[18]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[18]"/>
+        <port name="probe[19]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[19]"/>
+        <port name="probe[20]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[20]"/>
+        <port name="probe[21]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[21]"/>
+        <port name="probe[22]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[22]"/>
+        <port name="probe[23]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[23]"/>
+        <port name="probe[24]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[24]"/>
+        <port name="probe[25]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[25]"/>
+        <port name="probe[26]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[26]"/>
+        <port name="probe[27]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[27]"/>
+        <port name="probe[28]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[28]"/>
+        <port name="probe[29]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[29]"/>
+        <port name="probe[30]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[30]"/>
+        <port name="probe[31]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[31]"/>
+        <port name="probe[32]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[32]"/>
+        <port name="probe[33]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[33]"/>
+        <port name="probe[34]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[34]"/>
+        <port name="probe[35]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[35]"/>
+        <port name="probe[36]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[36]"/>
+        <port name="probe[37]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[37]"/>
+        <port name="probe[38]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[38]"/>
+        <port name="probe[39]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[39]"/>
+        <port name="probe[40]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[40]"/>
+        <port name="probe[41]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[41]"/>
+        <port name="probe[42]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[42]"/>
+        <port name="probe[43]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[43]"/>
+        <port name="probe[44]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[44]"/>
+        <port name="probe[45]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[45]"/>
+        <port name="probe[46]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[46]"/>
+        <port name="probe[47]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[47]"/>
+        <port name="probe[48]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[48]"/>
+        <port name="probe[49]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[49]"/>
+        <port name="probe[50]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[50]"/>
+        <port name="probe[51]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[51]"/>
+        <port name="probe[52]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[52]"/>
+        <port name="probe[53]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[53]"/>
+        <port name="probe[54]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[54]"/>
+        <port name="probe[55]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[55]"/>
+        <port name="probe[56]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[56]"/>
+        <port name="probe[57]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[57]"/>
+        <port name="probe[58]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[58]"/>
+        <port name="probe[59]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[59]"/>
+        <port name="probe[60]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[60]"/>
+        <port name="probe[61]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[61]"/>
+        <port name="probe[62]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[62]"/>
+        <port name="probe[63]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[63]"/>
+        <port name="probe[64]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[64]"/>
+        <port name="probe[65]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[65]"/>
+        <port name="probe[66]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[66]"/>
+        <port name="probe[67]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[67]"/>
+        <port name="probe[68]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[68]"/>
+        <port name="probe[69]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[69]"/>
+        <port name="probe[70]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[70]"/>
+        <port name="probe[71]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[71]"/>
+        <port name="probe[72]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[72]"/>
+        <port name="probe[73]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[73]"/>
+        <port name="probe[74]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[74]"/>
+        <port name="probe[75]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[75]"/>
+        <port name="probe[76]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[76]"/>
+        <port name="probe[77]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[77]"/>
+        <port name="probe[78]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[78]"/>
+        <port name="probe[79]" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|probe[79]"/>
+        <port name="source_clk" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|source_clk"/>
+        <port name="source_ena" source="ome_bot:bot_ome|qph_top:top_qph|qph_top_STAT:STAT_top_qph|source_ena"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_raw_tck" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_tdi" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_usr1" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_cdr" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_sdr" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_e1dr" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_udr" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_cir" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_uir" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_tlr" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_clrn" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_clrn"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ena" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ena"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_0_" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_1_" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_2_" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_3_" source="ome_bot:bot_ome|jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="source[0]"/>
+        <port name="source[1]"/>
+        <port name="source[2]"/>
+        <port name="source[3]"/>
+        <port name="source[4]"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.top_qph_STAT_top_qph_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|altsource_probe:altsource_probe_component" instance_id="5" mfg_id="110" node_id="9" sld_node_info="0x486E05" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="TPC0"/>
+        <parameter name="probe_width" type="dec" value="9"/>
+        <parameter name="source_width" type="dec" value="0"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="NO"/>
+      </parameters>
+      <inputs>
+        <port name="probe[0]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[0]"/>
+        <port name="probe[1]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[1]"/>
+        <port name="probe[2]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[2]"/>
+        <port name="probe[3]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[3]"/>
+        <port name="probe[4]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[4]"/>
+        <port name="probe[5]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[5]"/>
+        <port name="probe[6]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[6]"/>
+        <port name="probe[7]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[7]"/>
+        <port name="probe[8]" source="ome_bot:bot_ome|qlp_topph:topph_qlp|qlp_top:top_qlp|temp_ctrl:inst_temp_ctrl|tpc_probe:inst_tpc_probe|probe[8]"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_raw_tck" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_tdi" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_usr1" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_cdr" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_sdr" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_e1dr" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_udr" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_cir" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_uir" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_tlr" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_clrn" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_clrn"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ena" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ena"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_0_" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_1_" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_2_" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_3_" source="ome_bot:bot_ome|jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="source[0]"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.topph_qlp_top_qlp_inst_temp_ctrl_inst_tpc_probe_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+  </node_info>
+</sld_project_info>

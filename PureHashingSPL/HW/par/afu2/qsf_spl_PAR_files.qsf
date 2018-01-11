@@ -1,0 +1,15 @@
+set_global_assignment -name VERILOG_MACRO "MAX_TRANSFER_SIZE_1=1"
+set_global_assignment -name SEARCH_PATH $RTL_SRC/spl2
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/memory/sim_sp_mem.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/memory/sim_sdp_mem.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/memory/spl_sdp_mem.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/memory/spl_pt_mem.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/fifo/sim_fifo.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/fifo/spl_fifo.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/spl_inc.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/spl_cci.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/spl_csr.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/spl_core.v
+set_global_assignment -name VERILOG_FILE $RTL_SRC/spl2/spl_cci_top.v
+set_global_assignment -name SYSTEMVERILOG_FILE $RTL_SRC/spl2/cci_std_afu.sv
+

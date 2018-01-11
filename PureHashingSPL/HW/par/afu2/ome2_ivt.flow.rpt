@@ -1,0 +1,200 @@
+Flow report for ome2_ivt
+Fri Jan  8 15:32:51 2016
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Fri Jan  8 15:29:05 2016       ;
+; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                   ; ome2_ivt                                    ;
+; Top-level Entity Name           ; ome_top                                     ;
+; Family                          ; Stratix V                                   ;
+; Device                          ; 5SGXEA7N1F45C1                              ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 80,391 / 234,720 ( 34 % )                   ;
+; Total registers                 ; 77265                                       ;
+; Total pins                      ; 150 / 1,064 ( 14 % )                        ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 1,435,434 / 52,428,800 ( 3 % )              ;
+; Total DSP Blocks                ; 0 / 256 ( 0 % )                             ;
+; Total HSSI STD RX PCSs          ; 0 / 48 ( 0 % )                              ;
+; Total HSSI 10G RX PCSs          ; 0 / 48 ( 0 % )                              ;
+; Total HSSI GEN3 RX PCSs         ; 0 / 48 ( 0 % )                              ;
+; Total HSSI PMA RX Deserializers ; 24 / 48 ( 50 % )                            ;
+; Total HSSI STD TX PCSs          ; 0 / 48 ( 0 % )                              ;
+; Total HSSI 10G TX PCSs          ; 0 / 48 ( 0 % )                              ;
+; Total HSSI GEN3 TX PCSs         ; 0 / 48 ( 0 % )                              ;
+; Total HSSI TX Channels          ; 24 / 48 ( 50 % )                            ;
+; Total HSSI PIPE GEN1_2s         ; 0 / 48 ( 0 % )                              ;
+; Total HSSI GEN3s                ; 0 / 48 ( 0 % )                              ;
+; Total PLLs                      ; 7 / 92 ( 8 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/07/2016 12:52:23 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ome2_ivt            ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                     ;
++----------------------------------------------+-------------------------------------------------------------------------------+---------------+-------------+-------------------------+
+; Assignment Name                              ; Value                                                                         ; Default Value ; Entity Name ; Section Id              ;
++----------------------------------------------+-------------------------------------------------------------------------------+---------------+-------------+-------------------------+
+; ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS      ; Off                                                                           ; On            ; --          ; --                      ;
+; ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP          ; On                                                                            ; Off           ; --          ; --                      ;
+; ALLOW_ANY_RAM_SIZE_FOR_RECOGNITION           ; On                                                                            ; Off           ; --          ; --                      ;
+; AUTO_PACKED_REGISTERS_STRATIXII              ; Normal                                                                        ; Auto          ; --          ; --                      ;
+; COMPILER_SIGNATURE_ID                        ; 136361035095228.145216754208831                                               ; --            ; --          ; --                      ;
+; FITTER_EFFORT                                ; Standard Fit                                                                  ; Auto Fit      ; --          ; --                      ;
+; MAX_CORE_JUNCTION_TEMP                       ; 85                                                                            ; --            ; --          ; --                      ;
+; MIN_CORE_JUNCTION_TEMP                       ; 0                                                                             ; --            ; --          ; --                      ;
+; MUX_RESTRUCTURE                              ; On                                                                            ; Auto          ; --          ; --                      ;
+; OPTIMIZATION_TECHNIQUE                       ; Speed                                                                         ; Balanced      ; --          ; --                      ;
+; PARTITION_COLOR                              ; 39423                                                                         ; --            ; ome_top     ; cci_std_afu:cci_std_afu ;
+; PARTITION_COLOR                              ; 39423                                                                         ; --            ; ome_top     ; ome_bot:bot_ome         ;
+; PARTITION_COLOR                              ; 16764057                                                                      ; --            ; ome_top     ; Top                     ;
+; PARTITION_FITTER_PRESERVATION_LEVEL          ; PLACEMENT_AND_ROUTING                                                         ; --            ; ome_top     ; cci_std_afu:cci_std_afu ;
+; PARTITION_FITTER_PRESERVATION_LEVEL          ; PLACEMENT_AND_ROUTING                                                         ; --            ; ome_top     ; ome_bot:bot_ome         ;
+; PARTITION_FITTER_PRESERVATION_LEVEL          ; PLACEMENT_AND_ROUTING                                                         ; --            ; ome_top     ; Top                     ;
+; PARTITION_IMPORT_FILE                        ; /home/kkara/Projects/harp-applications/hashtable-cci/HW2//qpi/ome_bot-SPL.qxp ; --            ; ome_top     ; ome_bot:bot_ome         ;
+; PARTITION_LAST_IMPORTED_FILE                 ; /home/kkara/Projects/harp-applications/hashtable-cci/HW2//qpi/ome_bot-SPL.qxp ; --            ; ome_top     ; ome_bot:bot_ome         ;
+; PARTITION_NETLIST_TYPE                       ; POST_SYNTH                                                                    ; --            ; ome_top     ; cci_std_afu:cci_std_afu ;
+; PARTITION_NETLIST_TYPE                       ; POST_FIT                                                                      ; --            ; ome_top     ; ome_bot:bot_ome         ;
+; PARTITION_NETLIST_TYPE                       ; SOURCE                                                                        ; --            ; ome_top     ; Top                     ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC               ; On                                                                            ; Off           ; --          ; --                      ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC_FOR_AREA      ; On                                                                            ; Off           ; --          ; --                      ;
+; PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION      ; On                                                                            ; Off           ; --          ; --                      ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING         ; On                                                                            ; Off           ; --          ; --                      ;
+; POWER_BOARD_THERMAL_MODEL                    ; None (CONSERVATIVE)                                                           ; --            ; --          ; --                      ;
+; POWER_PRESET_COOLING_SOLUTION                ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                         ; --            ; --          ; --                      ;
+; ROUTER_LCELL_INSERTION_AND_LOGIC_DUPLICATION ; On                                                                            ; Auto          ; --          ; --                      ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL             ; MAXIMUM                                                                       ; Normal        ; --          ; --                      ;
+; SEARCH_PATH                                  ; /home/kkara/Projects/harp-applications/hashtable-cci/HW2//spl2                ; --            ; --          ; --                      ;
+; SEED                                         ; 0                                                                             ; 1             ; --          ; --                      ;
+; TOP_LEVEL_ENTITY                             ; ome_top                                                                       ; ome2_ivt      ; --          ; --                      ;
+; USE_HIGH_SPEED_ADDER                         ; On                                                                            ; Auto          ; --          ; --                      ;
+; VCCA_L_USER_VOLTAGE                          ; 3.0V                                                                          ; --            ; --          ; --                      ;
+; VCCA_R_USER_VOLTAGE                          ; 3.0V                                                                          ; --            ; --          ; --                      ;
+; VCCR_L_USER_VOLTAGE                          ; 1.0V                                                                          ; --            ; --          ; --                      ;
+; VCCR_R_USER_VOLTAGE                          ; 1.0V                                                                          ; --            ; --          ; --                      ;
+; VCCT_L_USER_VOLTAGE                          ; 1.0V                                                                          ; --            ; --          ; --                      ;
+; VCCT_R_USER_VOLTAGE                          ; 1.0V                                                                          ; --            ; --          ; --                      ;
+; VERILOG_MACRO                                ; MAX_TRANSFER_SIZE_1=1                                                         ; --            ; --          ; --                      ;
++----------------------------------------------+-------------------------------------------------------------------------------+---------------+-------------+-------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 682 MB              ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:03:06     ; 1.0                     ; 1523 MB             ; 00:03:07                           ;
+; Analysis & Synthesis      ; 00:00:11     ; 1.0                     ; 882 MB              ; 00:00:12                           ;
+; Partition Merge           ; 00:00:34     ; 1.0                     ; 1737 MB             ; 00:00:33                           ;
+; Fitter                    ; 00:34:31     ; 2.0                     ; 7322 MB             ; 00:54:55                           ;
+; Assembler                 ; 00:01:26     ; 1.0                     ; 2361 MB             ; 00:01:24                           ;
+; TimeQuest Timing Analyzer ; 00:03:31     ; 2.8                     ; 4058 MB             ; 00:08:56                           ;
+; Analysis & Synthesis      ; 00:00:14     ; 1.7                     ; 1012 MB             ; 00:00:14                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 696 MB              ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:01:04     ; 2.0                     ; 1108 MB             ; 00:01:37                           ;
+; Analysis & Synthesis      ; 00:01:02     ; 2.0                     ; 1106 MB             ; 00:01:37                           ;
+; Analysis & Synthesis      ; 00:00:15     ; 1.4                     ; 981 MB              ; 00:00:15                           ;
+; Partition Merge           ; 00:00:41     ; 1.0                     ; 1795 MB             ; 00:00:41                           ;
+; Fitter                    ; 00:35:32     ; 1.9                     ; 7763 MB             ; 01:01:59                           ;
+; Assembler                 ; 00:01:28     ; 1.0                     ; 2394 MB             ; 00:01:27                           ;
+; TimeQuest Timing Analyzer ; 00:03:39     ; 2.8                     ; 4204 MB             ; 00:09:34                           ;
+; Total                     ; 01:27:16     ; --                      ; --                  ; 02:26:33                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                             ;
++---------------------------+------------------+----------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
++---------------------------+------------------+----------------+------------+----------------+
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Partition Merge           ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Fitter                    ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Assembler                 ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; TimeQuest Timing Analyzer ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Analysis & Synthesis      ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Partition Merge           ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Fitter                    ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; Assembler                 ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
+; TimeQuest Timing Analyzer ; kkara-desktop    ; Ubuntu 14.04.2 ; 14         ; x86_64         ;
++---------------------------+------------------+----------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_cdb --read_settings_files=off --write_settings_files=off ome2_ivt -c ome2_ivt --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_asm --read_settings_files=off --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_sta ome2_ivt -c ome2_ivt
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_map --read_settings_files=on --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_cdb --read_settings_files=off --write_settings_files=off ome2_ivt -c ome2_ivt --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_asm --read_settings_files=off --write_settings_files=off ome2_ivt -c ome2_ivt
+quartus_sta ome2_ivt -c ome2_ivt
+
+
+

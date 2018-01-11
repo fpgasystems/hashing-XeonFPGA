@@ -1,0 +1,36 @@
+
+State Machine - |ome_top|cci_std_afu:cci_std_afu|spl_cci_top:spl_cci_top|spl_core:spl_core|spl_tx_rd_state
+Name spl_tx_rd_state.SPL_TX_RD_STATE_PT_VALID spl_tx_rd_state.SPL_TX_RD_STATE_PT_RD spl_tx_rd_state.SPL_TX_RD_STATE_CTX_RD spl_tx_rd_state.SPL_TX_RD_STATE_IDLE spl_tx_rd_state.SPL_TX_RD_STATE_DONE 
+spl_tx_rd_state.SPL_TX_RD_STATE_IDLE 0 0 0 0 0 
+spl_tx_rd_state.SPL_TX_RD_STATE_CTX_RD 0 0 1 1 0 
+spl_tx_rd_state.SPL_TX_RD_STATE_PT_RD 0 1 0 1 0 
+spl_tx_rd_state.SPL_TX_RD_STATE_PT_VALID 1 0 0 1 0 
+spl_tx_rd_state.SPL_TX_RD_STATE_DONE 0 0 0 1 1 
+
+State Machine - |ome_top|cci_std_afu:cci_std_afu|cci_ext_afu:cci_ext_afu|afu_top:afu_top|afu_core:afu_core|tx_rd_state
+Name tx_rd_state.TX_RD_STATE_CTX tx_rd_state.TX_RD_STATE_RUN tx_rd_state.TX_RD_STATE_IDLE 
+tx_rd_state.TX_RD_STATE_IDLE 0 0 0 
+tx_rd_state.TX_RD_STATE_CTX 1 0 1 
+tx_rd_state.TX_RD_STATE_RUN 0 1 1 
+
+State Machine - |ome_top|cci_std_afu:cci_std_afu|spl_cci_top:spl_cci_top|spl_core:spl_core|cor_rx_rd_state
+Name cor_rx_rd_state.COR_RX_RD_STATE_CTX cor_rx_rd_state.COR_RX_RD_STATE_AFU cor_rx_rd_state.COR_RX_RD_STATE_PT 
+cor_rx_rd_state.COR_RX_RD_STATE_CTX 0 0 0 
+cor_rx_rd_state.COR_RX_RD_STATE_PT 1 0 1 
+cor_rx_rd_state.COR_RX_RD_STATE_AFU 1 1 0 
+
+State Machine - |ome_top|cci_std_afu:cci_std_afu|cci_ext_afu:cci_ext_afu|afu_top:afu_top|afu_core:afu_core|tx_wr_state
+Name tx_wr_state.TX_WR_STATE_TASKDONE tx_wr_state.TX_WR_STATE_FENCE tx_wr_state.TX_WR_STATE_STATUS tx_wr_state.TX_WR_STATE_RUN tx_wr_state.TX_WR_STATE_CTX tx_wr_state.TX_WR_STATE_IDLE 
+tx_wr_state.TX_WR_STATE_IDLE 0 0 0 0 0 0 
+tx_wr_state.TX_WR_STATE_CTX 0 0 0 0 1 1 
+tx_wr_state.TX_WR_STATE_RUN 0 0 0 1 0 1 
+tx_wr_state.TX_WR_STATE_STATUS 0 0 1 0 0 1 
+tx_wr_state.TX_WR_STATE_FENCE 0 1 0 0 0 1 
+tx_wr_state.TX_WR_STATE_TASKDONE 1 0 0 0 0 1 
+
+State Machine - |ome_top|cci_std_afu:cci_std_afu|cci_ext_afu:cci_ext_afu|afu_top:afu_top|afu_core:afu_core|rxq_rd_state
+Name rxq_rd_state.RXQ_RD_STATE_2 rxq_rd_state.RXQ_RD_STATE_1 rxq_rd_state.RXQ_RD_STATE_0 rxq_rd_state.RXQ_RD_STATE_IDLE 
+rxq_rd_state.RXQ_RD_STATE_IDLE 0 0 0 0 
+rxq_rd_state.RXQ_RD_STATE_0 0 0 1 1 
+rxq_rd_state.RXQ_RD_STATE_1 0 1 0 1 
+rxq_rd_state.RXQ_RD_STATE_2 1 0 0 1 
